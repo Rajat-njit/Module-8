@@ -1,0 +1,230 @@
+2025-10-27 18:22:08,234 [INFO] Serving calculator UI page.
+2025-10-27 18:22:14,023 [INFO] Addition: 44 + 32 = 76.0
+2025-10-27 18:22:16,519 [INFO] Subtraction: 44 - 32 = 12.0
+2025-10-27 18:22:17,670 [INFO] Multiplication: 44 * 32 = 1408.0
+2025-10-27 18:22:18,605 [INFO] Division: 44 / 32 = 1.375
+2025-10-27 18:30:37,665 [INFO] 🚀 Application startup complete.
+2025-10-27 18:30:49,840 [INFO] Serving calculator UI page.
+2025-10-27 18:30:58,052 [INFO] Addition: 44 + 66 = 110.0
+2025-10-27 18:30:59,371 [INFO] Subtraction: 44 - 66 = -22.0
+2025-10-27 18:31:00,236 [INFO] Multiplication: 44 * 66 = 2904.0
+2025-10-27 18:31:00,990 [INFO] Division: 44 / 66 = 0.6666666666666666
+2025-10-27 18:31:14,473 [INFO] 🛑 Application shutdown initiated.
+2025-10-27 18:33:23,897 [INFO] 🚀 Application startup complete.
+2025-10-27 18:33:29,329 [INFO] Serving calculator UI page.
+2025-10-27 18:33:36,360 [INFO] Addition: 55 + 87 = 142.0
+2025-10-27 18:33:40,058 [INFO] Subtraction: 55 - 87 = -32.0
+2025-10-27 18:33:41,741 [INFO] Multiplication: 55 * 87 = 4785.0
+2025-10-27 18:33:42,522 [INFO] Division: 55 / 87 = 0.632183908045977
+2025-10-27 18:34:03,664 [INFO] 🛑 Application shutdown initiated.
+2025-10-27 18:39:30,845 [INFO] Test log message
+2025-10-27 18:39:30,856 [WARNING] Format test warning
+2025-10-27 18:40:06,200 [INFO] Test log message
+2025-10-27 18:40:06,216 [WARNING] Format test warning
+2025-10-27 18:40:06,248 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:40:06,251 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:40:06,252 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:40:06,254 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:40:06,255 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:40:06,256 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 18:40:06,257 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 18:40:06,258 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 18:40:06,260 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 18:40:06,262 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:40:06,262 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:40:06,263 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 18:40:06,265 [INFO] Serving calculator UI page.
+2025-10-27 18:40:06,269 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:40:06,269 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:40:06,270 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 18:40:06,270 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 18:40:06,271 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 18:40:06,273 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 18:43:29,305 [INFO] Logger initialized and file handler active.
+2025-10-27 18:43:29,654 [INFO] Test log message
+2025-10-27 18:43:29,670 [WARNING] Format test warning
+2025-10-27 18:43:29,702 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:43:29,705 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:43:29,706 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:43:29,708 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:43:29,710 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:43:29,711 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 18:43:29,711 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 18:43:29,712 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 18:43:29,714 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 18:43:29,715 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:43:29,715 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:43:29,717 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 18:43:29,718 [INFO] Serving calculator UI page.
+2025-10-27 18:43:29,722 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:43:29,722 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:43:29,723 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 18:43:29,723 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 18:43:29,725 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 18:43:29,726 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 18:44:41,337 [INFO] Logger initialized (file handler active).
+2025-10-27 18:44:41,686 [INFO] Test log message
+2025-10-27 18:44:41,702 [WARNING] Format test warning
+2025-10-27 18:44:41,736 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:44:41,738 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:44:41,739 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:44:41,741 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:44:41,743 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:44:41,745 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 18:44:41,745 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 18:44:41,746 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 18:44:41,747 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 18:44:41,749 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:44:41,749 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:44:41,750 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 18:44:41,752 [INFO] Serving calculator UI page.
+2025-10-27 18:44:41,756 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:44:41,756 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:44:41,757 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 18:44:41,757 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 18:44:41,758 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 18:44:41,760 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 18:47:22,216 [INFO] Logger initialized.
+2025-10-27 18:47:57,579 [INFO] Logger initialized.
+2025-10-27 18:48:12,820 [INFO] Logger initialized.
+2025-10-27 18:48:28,934 [INFO] Logger initialized.
+2025-10-27 18:48:31,208 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:48:31,210 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:48:31,212 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:48:31,214 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:48:31,215 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:48:31,217 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 18:48:31,217 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 18:48:31,218 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 18:48:31,218 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 18:48:31,220 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:48:31,220 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:48:31,221 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 18:48:31,222 [INFO] Serving calculator UI page.
+2025-10-27 18:48:31,227 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:48:31,227 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:48:31,228 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 18:48:31,228 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 18:48:31,230 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 18:48:31,231 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 18:50:00,784 [INFO] Logger initialized.
+2025-10-27 18:51:59,441 [INFO] Logger initialized.
+2025-10-27 18:56:15,784 [INFO] Logger initialized.
+2025-10-27 18:56:21,944 [INFO] Logger initialized.
+2025-10-27 18:56:22,401 [INFO] Logger initialized.
+2025-10-27 18:56:22,404 [INFO] 🚀 Application startup complete.
+2025-10-27 18:56:25,909 [INFO] Serving calculator UI page.
+2025-10-27 18:56:26,340 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:56:26,436 [INFO] Serving calculator UI page.
+2025-10-27 18:56:26,503 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:56:26,555 [INFO] Serving calculator UI page.
+2025-10-27 18:56:26,620 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:56:26,674 [INFO] Serving calculator UI page.
+2025-10-27 18:56:26,736 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:56:26,787 [INFO] Serving calculator UI page.
+2025-10-27 18:56:26,853 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:56:31,930 [INFO] Serving calculator UI page.
+2025-10-27 18:56:31,986 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:56:31,987 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:56:32,039 [INFO] Serving calculator UI page.
+2025-10-27 18:56:32,237 [INFO] Serving calculator UI page.
+2025-10-27 18:56:32,303 [INFO] Division: 10 / 2 = 5.0
+2025-10-27 18:56:32,348 [INFO] Addition: 5 + 3 = 8.0
+2025-10-27 18:56:32,362 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:56:32,365 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:56:32,367 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:56:32,368 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:56:32,370 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:56:32,372 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 18:56:32,372 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 18:56:32,373 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 18:56:32,373 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 18:56:32,374 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:56:32,374 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:56:32,376 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 18:56:32,377 [INFO] Serving calculator UI page.
+2025-10-27 18:56:32,381 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:56:32,381 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:56:32,382 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 18:56:32,382 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 18:56:32,384 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 18:56:32,385 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 18:56:32,620 [INFO] 🛑 Application shutdown initiated.
+2025-10-27 18:58:29,368 [INFO] Logger initialized.
+2025-10-27 18:58:29,782 [INFO] Logger initialized.
+2025-10-27 18:58:29,785 [INFO] 🚀 Application startup complete.
+2025-10-27 18:58:33,299 [INFO] Serving calculator UI page.
+2025-10-27 18:58:33,429 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:58:33,519 [INFO] Serving calculator UI page.
+2025-10-27 18:58:33,582 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:58:33,633 [INFO] Serving calculator UI page.
+2025-10-27 18:58:33,698 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:58:33,751 [INFO] Serving calculator UI page.
+2025-10-27 18:58:33,815 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:58:33,866 [INFO] Serving calculator UI page.
+2025-10-27 18:58:33,932 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:58:39,011 [INFO] Serving calculator UI page.
+2025-10-27 18:58:39,066 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:58:39,066 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:58:39,120 [INFO] Serving calculator UI page.
+2025-10-27 18:58:39,315 [INFO] Serving calculator UI page.
+2025-10-27 18:58:39,382 [INFO] Division: 10 / 2 = 5.0
+2025-10-27 18:58:39,429 [INFO] Addition: 5 + 3 = 8.0
+2025-10-27 18:58:39,446 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 18:58:39,448 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 18:58:39,450 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 18:58:39,452 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 18:58:39,453 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 18:58:39,455 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 18:58:39,455 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 18:58:39,456 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 18:58:39,456 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 18:58:39,457 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:58:39,457 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:58:39,459 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 18:58:39,461 [INFO] Serving calculator UI page.
+2025-10-27 18:58:39,464 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:58:39,464 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 18:58:39,465 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 18:58:39,465 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 18:58:39,467 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 18:58:39,468 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 18:58:39,703 [INFO] 🛑 Application shutdown initiated.
+2025-10-27 19:00:29,706 [INFO] Logger initialized.
+2025-10-27 19:00:30,139 [INFO] Logger initialized.
+2025-10-27 19:00:30,142 [INFO] 🚀 Application startup complete.
+2025-10-27 19:00:33,631 [INFO] Serving calculator UI page.
+2025-10-27 19:00:33,771 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 19:00:33,826 [INFO] Serving calculator UI page.
+2025-10-27 19:00:33,894 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 19:00:33,945 [INFO] Serving calculator UI page.
+2025-10-27 19:00:34,011 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 19:00:34,063 [INFO] Serving calculator UI page.
+2025-10-27 19:00:34,127 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 19:00:34,177 [INFO] Serving calculator UI page.
+2025-10-27 19:00:34,376 [INFO] Serving calculator UI page.
+2025-10-27 19:00:34,427 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 19:00:34,427 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 19:00:34,477 [INFO] Serving calculator UI page.
+2025-10-27 19:00:34,544 [INFO] Division: 10 / 2 = 5.0
+2025-10-27 19:00:34,587 [INFO] Addition: 5 + 3 = 8.0
+2025-10-27 19:00:34,603 [INFO] Addition: 2 + 3 = 5.0
+2025-10-27 19:00:34,606 [INFO] Subtraction: 5 - 3 = 2.0
+2025-10-27 19:00:34,607 [INFO] Multiplication: 2 * 3 = 6.0
+2025-10-27 19:00:34,609 [INFO] Division: 6 / 3 = 2.0
+2025-10-27 19:00:34,611 [WARNING] Division by zero attempted: Cannot divide by zero
+2025-10-27 19:00:34,612 [ERROR] Error in addition: could not convert string to float: 'abc'
+2025-10-27 19:00:34,612 [ERROR] HTTPException: could not convert string to float: 'abc'
+2025-10-27 19:00:34,613 [ERROR] Error in subtraction: could not convert string to float: 'xyz'
+2025-10-27 19:00:34,613 [ERROR] HTTPException: could not convert string to float: 'xyz'
+2025-10-27 19:00:34,615 [ERROR] Error in multiplication: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 19:00:34,615 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 19:00:34,616 [WARNING] Division by zero attempted: could not convert string to float: 'oops'
+2025-10-27 19:00:34,618 [INFO] Serving calculator UI page.
+2025-10-27 19:00:34,622 [ERROR] Error in addition: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 19:00:34,622 [ERROR] HTTPException: float() argument must be a string or a real number, not 'NoneType'
+2025-10-27 19:00:34,623 [ERROR] Error in multiplication: could not convert string to float: 'foo'
+2025-10-27 19:00:34,623 [ERROR] HTTPException: could not convert string to float: 'foo'
+2025-10-27 19:00:34,624 [INFO] Addition: 1e+308 + 1e+308 = Infinity or NaN (result too large)
+2025-10-27 19:00:34,626 [INFO] Division: 1 / 3 = 0.3333333333333333
+2025-10-27 19:00:34,796 [INFO] 🛑 Application shutdown initiated.
