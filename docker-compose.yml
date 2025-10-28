@@ -9,6 +9,7 @@
 # to define and manage multi-container Docker applications using a YAML file.
 
 # Version Specification
+
 version: '3.8'  # Specify the version of Docker Compose syntax to use.
 
 # Services Definition
