@@ -1,4 +1,3 @@
----
 
 # 🧮 FastAPI Calculator – Module 8 Assignment
 
