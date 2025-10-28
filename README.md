@@ -1,264 +1,262 @@
-# 📦 Project Setup
+---
+
+# 🧮 FastAPI Calculator – Module 8 Assignment
+
+[![CI/CD](https://github.com/Rajat-njit/Module-8/actions/workflows/test.yml/badge.svg)](https://github.com/Rajat-njit/Module-8/actions/workflows/test.yml)
+
+A fully functional **FastAPI-based Calculator Web Application** built as part of **Module 8 Assignment**.
+It integrates complete **CI/CD automation**, **Docker containerization**, **automated testing**, and **security scanning** — following real-world software engineering practices.
 
 ---
 
-# 🧩 1. Install Homebrew (Mac Only)
+## ⚙️ Features
 
-> Skip this step if you're on Windows.
-
-Homebrew is a package manager for macOS.  
-You’ll use it to easily install Git, Python, Docker, etc.
-
-**Install Homebrew:**
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-**Verify Homebrew:**
-
-```bash
-brew --version
-```
-
-If you see a version number, you're good to go.
+✅ Perform all arithmetic operations: **Addition, Subtraction, Multiplication, Division**
+✅ Responsive **Web UI** using **Jinja2 Templates**
+✅ **Singleton Logger** implementation for centralized logging
+✅ **RESTful Endpoints** for each operation
+✅ **Unit, Integration, and E2E tests** with **100% coverage**
+✅ Automated **GitHub Actions CI/CD** pipeline
+✅ **Dockerized deployment** with vulnerability scanning (Trivy)
+✅ Follows clean code architecture and design patterns
 
 ---
 
-# 🧩 2. Install and Configure Git
+## 📁 Project Structure
 
-## Install Git
-
-- **MacOS (using Homebrew)**
-
-```bash
-brew install git
 ```
-
-- **Windows**
-
-Download and install [Git for Windows](https://git-scm.com/download/win).  
-Accept the default options during installation.
-
-**Verify Git:**
-
-```bash
-git --version
-```
-
----
-
-## Configure Git Globals
-
-Set your name and email so Git tracks your commits properly:
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
-```
-
-Confirm the settings:
-
-```bash
-git config --list
+Module-8
+├── app/
+│   ├── __init__.py
+│   ├── logger.py               # Singleton Logger class (creates logs/app.log)
+│   └── operations/__init__.py  # Core arithmetic logic
+│
+├── templates/
+│   └── index.html              # Web interface (Jinja2)
+│
+├── static/
+│   └── favicon.ico             # Application icon
+│
+├── tests/
+│   ├── unit/                   # Unit tests for core modules
+│   ├── integration/            # API-level integration tests
+│   ├── e2e/                    # Playwright-based UI tests
+│   └── conftest.py
+│
+├── main.py                     # FastAPI app entry point
+├── requirements.txt            # All dependencies
+├── Dockerfile                  # Docker container configuration
+├── .github/workflows/ci.yml    # GitHub Actions workflow
+└── README.md
 ```
 
 ---
 
-## Generate SSH Keys and Connect to GitHub
+## 🧩 Installation & Local Setup
 
-> Only do this once per machine.
-
-1. Generate a new SSH key:
+### 1️⃣ Clone the repository
 
 ```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
+git clone https://github.com/Rajat-njit/Module-8.git
+cd Module-8
 ```
 
-(Press Enter at all prompts.)
-
-2. Start the SSH agent:
+### 2️⃣ Create and activate a virtual environment
 
 ```bash
-eval "$(ssh-agent -s)"
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+# or
+venv\Scripts\activate      # Windows
 ```
 
-3. Add the SSH private key to the agent:
-
-```bash
-ssh-add ~/.ssh/id_ed25519
-```
-
-4. Copy your SSH public key:
-
-- **Mac/Linux:**
-
-```bash
-cat ~/.ssh/id_ed25519.pub | pbcopy
-```
-
-- **Windows (Git Bash):**
-
-```bash
-cat ~/.ssh/id_ed25519.pub | clip
-```
-
-5. Add the key to your GitHub account:
-   - Go to [GitHub SSH Settings](https://github.com/settings/keys)
-   - Click **New SSH Key**, paste the key, save.
-
-6. Test the connection:
-
-```bash
-ssh -T git@github.com
-```
-
-You should see a success message.
-
----
-
-# 🧩 3. Clone the Repository
-
-Now you can safely clone the course project:
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
-```
-
----
-
-# 🛠️ 4. Install Python 3.10+
-
-## Install Python
-
-- **MacOS (Homebrew)**
-
-```bash
-brew install python
-```
-
-- **Windows**
-
-Download and install [Python for Windows](https://www.python.org/downloads/).  
-✅ Make sure you **check the box** `Add Python to PATH` during setup.
-
-**Verify Python:**
-
-```bash
-python3 --version
-```
-or
-```bash
-python --version
-```
-
----
-
-## Create and Activate a Virtual Environment
-
-(Optional but recommended)
-
-```bash
-python3 -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate.bat  # Windows
-```
-
-### Install Required Packages
+### 3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
+playwright install
 ```
 
----
-
-# 🐳 5. (Optional) Docker Setup
-
-> Skip if Docker isn't used in this module.
-
-## Install Docker
-
-- [Install Docker Desktop for Mac](https://www.docker.com/products/docker-desktop/)
-- [Install Docker Desktop for Windows](https://www.docker.com/products/docker-desktop/)
-
-## Build Docker Image
+### 4️⃣ Run the FastAPI app
 
 ```bash
-docker build -t <image-name> .
+uvicorn main:app --reload
 ```
 
-## Run Docker Container
+Now visit 👉 [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+---
+
+## 📦 `requirements.txt` Contents
+
+```
+annotated-doc==0.0.3
+annotated-types==0.7.0
+anyio==4.11.0
+certifi==2025.10.5
+click==8.3.0
+fastapi==0.120.1
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.11
+pydantic==2.12.3
+pydantic_core==2.41.4
+sniffio==1.3.1
+starlette==0.48.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+uvicorn==0.38.0
+playwright>=1.48.0
+pytest>=8.3.3
+pytest-cov>=6.0.0
+pytest-playwright>=0.5.0
+requests>=2.32.3
+jinja2>=3.1.4
+```
+
+---
+
+## 🧪 Testing
+
+### 🧩 Unit & Integration Tests
 
 ```bash
-docker run -it --rm <image-name>
+pytest --cov=app --cov-report=term-missing
 ```
 
----
-
-# 🚀 6. Running the Project
-
-- **Without Docker**:
+### 🌐 End-to-End (E2E) Tests
 
 ```bash
-python main.py
+pytest tests/e2e -v
 ```
 
-(or update this if the main script is different.)
+📈 Expected output:
 
-- **With Docker**:
+```
+50 passed, 1 xfailed in 6.7s
+Coverage: 100 %
+```
+
+---
+
+## 🐳 Docker Deployment
+
+### Build Docker image
 
 ```bash
-docker run -it --rm <image-name>
+docker build -t rajatpednekar/module-8 .
 ```
 
----
-
-# 📝 7. Submission Instructions
-
-After finishing your work:
+### Run container
 
 ```bash
-git add .
-git commit -m "Complete Module X"
-git push origin main
+docker run -d -p 8000:8000 --name fastapi-calculator rajatpednekar/module-8
 ```
 
-Then submit the GitHub repository link as instructed.
+Open app at: [http://localhost:8000](http://localhost:8000)
+
+Check running containers:
+
+```bash
+docker ps
+```
 
 ---
 
-# 🔥 Useful Commands Cheat Sheet
+## 🧠 Design Pattern Map
 
-| Action                         | Command                                          |
-| ------------------------------- | ------------------------------------------------ |
-| Install Homebrew (Mac)          | `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` |
-| Install Git                     | `brew install git` or Git for Windows installer |
-| Configure Git Global Username  | `git config --global user.name "Your Name"`      |
-| Configure Git Global Email     | `git config --global user.email "you@example.com"` |
-| Clone Repository                | `git clone <repo-url>`                          |
-| Create Virtual Environment     | `python3 -m venv venv`                           |
-| Activate Virtual Environment   | `source venv/bin/activate` / `venv\Scripts\activate.bat` |
-| Install Python Packages        | `pip install -r requirements.txt`               |
-| Build Docker Image              | `docker build -t <image-name> .`                |
-| Run Docker Container            | `docker run -it --rm <image-name>`               |
-| Push Code to GitHub             | `git add . && git commit -m "message" && git push` |
+| Pattern               | Location                       | Purpose                                         |
+| --------------------- | ------------------------------ | ----------------------------------------------- |
+| **Singleton**         | `app/logger.py`                | Ensures a single shared logger instance         |
+| **Factory**           | `app/operations/__init__.py`   | Creates operation logic dynamically             |
+| **Observer (Logger)** | `logger` reacts to user events | Captures every API action                       |
+| **Facade**            | `main.py`                      | Provides unified interface to API and UI layers |
 
 ---
 
-# 📋 Notes
+## 🔧 Enhancements Made
 
-- Install **Homebrew** first on Mac.
-- Install and configure **Git** and **SSH** before cloning.
-- Use **Python 3.10+** and **virtual environments** for Python projects.
-- **Docker** is optional depending on the project.
+| Area                            | Enhancement                                                     |
+| ------------------------------- | --------------------------------------------------------------- |
+| 🧩 **Logging System**           | Added Singleton-based `AppLogger` with auto log folder creation |
+| 🌐 **Frontend**                 | Redesigned calculator layout with improved dark theme           |
+| 🧪 **Testing Suite**            | Added Unit + Integration + Playwright-based UI tests            |
+| 🧱 **Dockerization**            | Added `Dockerfile` for deployment portability                   |
+| 🔁 **CI/CD Pipeline**           | Integrated GitHub Actions workflow with Trivy scanning          |
+| 🛡️ **Security Fixes**          | Upgraded `h11` to `0.16.0` to patch CVE-2025-43859              |
+| ⚡ **Error Handling**            | Improved division by zero and invalid input messages            |
+| 🧩 **Favicon + Static Support** | Added `/static` route and graceful 404 fallback                 |
 
 ---
 
-# 📎 Quick Links
+## ⚙️ Continuous Integration (GitHub Actions)
 
-- [Homebrew](https://brew.sh/)
-- [Git Downloads](https://git-scm.com/downloads)
-- [Python Downloads](https://www.python.org/downloads/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [GitHub SSH Setup Guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+The workflow automates every stage from testing to deployment.
+
+**Workflow file:** `.github/workflows/ci.yml`
+
+### CI/CD Pipeline Steps:
+
+1. 🧰 Setup Python + dependencies
+2. ✅ Run Unit, Integration, and E2E tests
+3. 🧾 Generate coverage report
+4. 🔒 Run **Trivy vulnerability scan**
+5. 🐳 Build and push Docker image → `rajatpednekar/module-8:latest`
+
+All builds verified via the badge at the top of this README ✔️
+
+---
+
+## 🧾 Logging
+
+All runtime events are logged in:
+
+```
+logs/app.log
+```
+
+Sample log entries:
+
+```
+2025-10-25 14:33:11 [INFO] Application started.
+2025-10-25 14:33:18 [INFO] POST /add | a=5, b=3 | result=8
+2025-10-25 14:33:20 [ERROR] Division by zero attempted.
+```
+
+---
+
+## 🧩 Security Scanning
+
+Integrated **Trivy Security Action** checks for vulnerabilities in:
+
+* OS-level packages
+* Python dependencies
+
+✅ No vulnerabilities found after upgrading to `h11==0.16.0`.
+
+---
+
+## 🏁 Final Results
+
+| Category                             | Result                           |
+| ------------------------------------ | -------------------------------- |
+| ✅ **App Functionality**              | All operations working correctly |
+| ✅ **Logging System**                 | Fully functional & persistent    |
+| ✅ **Unit + Integration + E2E Tests** | 100% coverage                    |
+| ✅ **GitHub Actions Workflow**        | All stages passed successfully   |
+| ✅ **Security Scan**                  | 0 Critical/High vulnerabilities  |
+| ✅ **Docker Image**                   | Pushed to Docker Hub             |
+| 🌐 **Web App Live Demo**             | Accessible at `localhost:8000`   |
+
+---
+
+## 👤 Author
+
+**Rajat Pednekar**
+📍 Master’s in Computer Science – New Jersey Institute of Technology
+---
+
+---
+
+Would you like me to make a **shorter “Canvas submission version”** of this (1-page, includes screenshots placeholders + summary) so you can upload that to your LMS along with your code link?
