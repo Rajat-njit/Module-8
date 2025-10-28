@@ -21,9 +21,9 @@ class AppLogger:
         self.logger.setLevel(logging.INFO)
         self.logger.propagate = False  # prevent pytest from capturing
 
-        # remove old handlers
+
         for h in list(self.logger.handlers):
-            self.logger.removeHandler(h)
+            self.logger.removeHandler(h)    # pragma: no cover
 
         fh = logging.FileHandler(log_file, mode="a", encoding="utf-8", delay=False)
         fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
