@@ -253,9 +253,9 @@ Integrated **Trivy Security Action** checks for vulnerabilities in:
 ## 👤 Author
 
 **Rajat Pednekar**
+
 📍 Master’s in Computer Science – New Jersey Institute of Technology
----
 
 ---
 
-Would you like me to make a **shorter “Canvas submission version”** of this (1-page, includes screenshots placeholders + summary) so you can upload that to your LMS along with your code link?
+\
