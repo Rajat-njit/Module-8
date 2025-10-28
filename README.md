@@ -1,7 +1,7 @@
 
 # 🧮 FastAPI Calculator – Module 8 Assignment
 
-[![CI/CD](https://github.com/Rajat-njit/Module-8/actions/workflows/ci.yml/badge.svg)](https://github.com/Rajat-njit/Module-8/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/Rajat-njit/Module-8/actions/workflows/test.yml/badge.svg)](https://github.com/Rajat-njit/Module-8/actions/workflows/test.yml)
 
 A fully functional **FastAPI-based Calculator Web Application** built as part of **Module 8 Assignment**.  
 It integrates complete **CI/CD automation**, **Docker containerization**, **automated testing**, and **security scanning** — following real-world software engineering practices.
