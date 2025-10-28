@@ -3,24 +3,23 @@
 
 [![CI/CD](https://github.com/Rajat-njit/Module-8/actions/workflows/ci.yml/badge.svg)](https://github.com/Rajat-njit/Module-8/actions/workflows/ci.yml)
 
-
-A fully functional **FastAPI-based Calculator Web Application** built as part of **Module 8 Assignment**.
+A fully functional **FastAPI-based Calculator Web Application** built as part of **Module 8 Assignment**.  
 It integrates complete **CI/CD automation**, **Docker containerization**, **automated testing**, and **security scanning** — following real-world software engineering practices.
 
 ---
 
 ## ⚙️ Features
 
-✅ Perform all arithmetic operations: **Addition, Subtraction, Multiplication, Division**
-✅ Responsive **Web UI** using **Jinja2 Templates**
-✅ **Singleton Logger** implementation for centralized logging
-✅ **RESTful Endpoints** for each operation
-✅ **Unit, Integration, and E2E tests** with **100% coverage**
-✅ Automated **GitHub Actions CI/CD** pipeline
-✅ **Dockerized deployment** with vulnerability scanning (Trivy)
+✅ Perform all arithmetic operations: **Addition, Subtraction, Multiplication, Division**  
+✅ Responsive **Web UI** using **Jinja2 Templates**  
+✅ **Singleton Logger** implementation for centralized logging  
+✅ **RESTful Endpoints** for each operation  
+✅ **Unit, Integration, and E2E tests** with **100% coverage**  
+✅ Automated **GitHub Actions CI/CD** pipeline  
+✅ **Dockerized deployment** with vulnerability scanning (Trivy)  
 ✅ Follows clean code architecture and design patterns
 
----
+
 
 ## 📁 Project Structure
 
